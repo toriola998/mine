@@ -1,0 +1,67 @@
+#orange {
+  color: #E53E00;
+  font-style: oblique;
+  
+}
+
+div {
+  border-style: groove;
+  border-width: 1px;
+  margin: 20px;
+}
+
+.heading {
+  text-align: center;
+}
+
+.list {
+  font-size: 19px;
+}
+
+.topic {
+  text-align: center;
+}
+
+/*media queries for tablets*/
+@media screen and (min-width: 700px) {
+  #orange {
+    font-size: larger;
+    padding-bottom: 30px;
+    
+  }
+
+  #project {
+    font-size: x-large;
+  }
+
+  p, .topic {
+    font-size: larger;
+  }
+
+
+
+
+
+
+
+
+
+
+} 
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+

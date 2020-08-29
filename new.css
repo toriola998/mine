@@ -1,0 +1,262 @@
+﻿/*#brand {
+    color: #FF4500;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 20px;
+
+}*/
+
+
+.navigation {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#navbarNav {
+  margin: auto;
+}
+
+#welcome {
+  background-image: url("bg.jpg");
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 180px;
+  background-position: center;
+}
+
+#hire {
+    border-radius: 20px;
+    background-color:  #FF4500;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 17px;
+    border-style: none;
+}
+
+#touch {
+  padding-top: 100px;
+  text-align: center;
+}
+
+.description {
+  font-family: 'Monserrati', sans-serif;
+  color: white;
+  text-align: center;
+}
+
+
+#first {
+  font-family: 'DM Sans', sans-serif;
+  color: #FF4500;
+  font-size: 42px;
+
+}
+
+ #name  {
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  text-align: left;
+}
+
+
+#second {
+  font-size: 14px;
+  font-style: oblique;
+}
+
+.orange {
+  color: #E53E00;
+  font-style: oblique;
+  
+}
+
+button {
+  border-radius: 20px;
+  background-color:  #FF4500;
+  color: white;
+  padding: 2px 8px 3px 8px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  border-style: none;
+}
+
+#about {
+  background-color:#FF4500;
+  color: white;
+  padding: 30px;
+}
+
+#about-me, #contact-me {
+  padding-bottom: 20px;
+}
+
+#lagoslink {
+  color: #000000;
+  font-weight: 600;
+}
+
+#contact {
+  background-color: black;
+  margin-top: 20px;
+  color:white;
+  padding: 30px;
+  text-align: center;
+}
+
+#contacto {
+  margin-bottom: 50px;
+}
+
+
+#phone {
+  padding-bottom: 30px;
+}
+
+
+#mail {
+  padding-bottom: 50px;
+}
+
+.underline {
+  text-decoration: none;
+  color: whitesmoke;
+  font-weight: 300;
+}
+
+.underline:hover {
+  color: #FF4500;
+
+}
+
+
+#copyright {
+  background-color: black;
+  color: whitesmoke;
+  font-weight: 100;
+}
+
+.foot, footer, #about-me {
+  text-align: center;
+}
+
+/*media queries for phones*/ 
+@media screen and (min-width: 366px) {
+#first {
+    font-size: 48px;
+}
+
+#name  {
+  font-size: 17px;
+}
+
+#second {
+  font-size: 15px;
+}
+
+}
+
+/*media queries for phones*/
+@media screen and (min-width: 420px) {
+  #first {
+    font-size: 55px;
+  }
+  
+  #name  {
+    font-size: 17px;
+   
+  }
+  
+  #second {
+    font-size: 16px;
+  }
+  
+ 
+  }
+
+
+/*-media queries for laptop*/
+@media screen and (min-width: 1000px) {
+  body {
+    font-size: larger;
+  }
+
+  .navigation {
+    
+    font-size: 20px;
+  }
+
+  #get {
+    font-size: 21px;
+  }
+
+  #hire {
+    border-radius: 25px;
+    
+    padding: 15px;  
+  }
+
+
+  #touch {
+    padding-top: 120px;
+  }
+  
+  #first {
+    font-size: 90px;
+  }
+  
+  #name  {
+    font-size: 23px;
+  }
+  
+  #second {
+    font-size: 21px;
+  }
+  
+  .project {
+    font-size: larger;
+  }
+
+
+  .orange {
+    font-size: large;
+  }
+
+  button {
+    border-radius: 20px;
+    padding: 4px 9px 4px 9px;
+    font-size: 16px;
+    font-weight: 500;
+    border-style: none;
+  }
+
+  #mail {
+    padding-left: 300px;
+  }
+
+  #phone {
+    padding-right: 300px;
+  }
+
+  .topic {
+    font-size: large;
+  }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
